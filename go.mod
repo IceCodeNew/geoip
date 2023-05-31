@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/maxmind/mmdbwriter v0.0.0-20230315153935-be21eaf06f90
 	github.com/oschwald/maxminddb-golang v1.10.0
-	github.com/v2fly/v2ray-core/v5 v5.5.0
+	github.com/v2fly/v2ray-core/v5 v5.7.0
 	go4.org/netipx v0.0.0-20230303233057-f1b76eb4bb35
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/yaml.v2 v2.4.0
