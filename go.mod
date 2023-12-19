@@ -19,7 +19,7 @@ require (
 	github.com/pires/go-proxyproto v0.7.0 // indirect
 	github.com/quic-go/quic-go v0.40.0 // indirect
 	go.starlark.net v0.0.0-20230612165344-9532f5667272 // indirect
-	golang.org/x/crypto v0.16.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
