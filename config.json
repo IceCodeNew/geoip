@@ -67,6 +67,14 @@
       }
     },
     {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "chnroutes-alike",
+        "uri": "https://raw.githubusercontent.com/felixonmars/chnroutes-alike/master/chnroutes-alike.txt"
+      }
+    },
+    {
       "type": "json",
       "action": "add",
       "args": {
@@ -230,6 +238,7 @@
         "outputName": "Country.mmdb",
         "sourceMMDBURI": "./output/GeoLite2-Country.mmdb",
         "overwriteList": [
+          "chnroutes-alike",
           "cn",
           "cloudflare",
           "cloudfront",
