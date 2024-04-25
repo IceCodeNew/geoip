@@ -89,6 +89,13 @@ jobs:
           curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country&license_key=${LICENSE_KEY}&suffix=tar.gz" -o GeoLite2-Country.tar.gz
           curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=${LICENSE_KEY}&suffix=zip" -o GeoLite2-Country-CSV.zip
 
+      - name: Generate chnroutes-alike rules
+        run: |
+          sed -E -e '/[#\r\t\f\v ]/d' -e '/^$/d' -e 's/$/,DIRECT/' \
+              -e 's/^/IP-CIDR,/' -e '/:/s/IP-CIDR/IP-CIDR6/' \
+              ./output/text/chnroutes-alike.txt \
+              > ./output/text/chnroutes-alike.cidr-rules
+
       - name: Move files to publish directory
         run: |
           mkdir -p publish
