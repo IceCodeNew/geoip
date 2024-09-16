@@ -11,7 +11,7 @@ require (
 	github.com/sagernet/sing-box v1.9.4
 	github.com/spf13/cobra v1.8.1
 	github.com/tidwall/gjson v1.17.3
-	github.com/v2fly/v2ray-core/v5 v5.18.0
+	github.com/v2fly/v2ray-core/v5 v5.19.0
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/yaml.v2 v2.4.0
@@ -25,7 +25,7 @@ require (
 	github.com/miekg/dns v1.1.62 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pires/go-proxyproto v0.7.0 // indirect
-	github.com/quic-go/quic-go v0.46.0 // indirect
+	github.com/quic-go/quic-go v0.47.0 // indirect
 	github.com/sagernet/sing v0.4.2 // indirect
 	github.com/sagernet/sing-dns v0.2.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
