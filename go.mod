@@ -8,7 +8,7 @@ require (
 	github.com/klauspost/compress v1.17.9
 	github.com/maxmind/mmdbwriter v1.0.0
 	github.com/oschwald/maxminddb-golang v1.13.1
-	github.com/sagernet/sing-box v1.9.4
+	github.com/sagernet/sing-box v1.9.5
 	github.com/spf13/cobra v1.8.1
 	github.com/tidwall/gjson v1.17.3
 	github.com/v2fly/v2ray-core/v5 v5.19.0
@@ -26,7 +26,7 @@ require (
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pires/go-proxyproto v0.7.0 // indirect
 	github.com/quic-go/quic-go v0.47.0 // indirect
-	github.com/sagernet/sing v0.4.2 // indirect
+	github.com/sagernet/sing v0.4.3 // indirect
 	github.com/sagernet/sing-dns v0.2.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
