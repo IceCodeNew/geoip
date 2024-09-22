@@ -8,7 +8,7 @@ require (
 	github.com/klauspost/compress v1.17.9
 	github.com/maxmind/mmdbwriter v1.0.0
 	github.com/oschwald/maxminddb-golang v1.13.1
-	github.com/sagernet/sing-box v1.9.5
+	github.com/sagernet/sing-box v1.9.6
 	github.com/spf13/cobra v1.8.1
 	github.com/tidwall/gjson v1.17.3
 	github.com/v2fly/v2ray-core/v5 v5.19.0
