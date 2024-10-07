@@ -13,7 +13,7 @@ require (
 	github.com/tidwall/gjson v1.17.3
 	github.com/v2fly/v2ray-core/v5 v5.19.0
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.1
 	gopkg.in/yaml.v2 v2.4.0
 )
 
